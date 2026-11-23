@@ -1,6 +1,6 @@
 # Applied AI Engineering · cómo trabajar en este repo
 - Es mi repo de aprendizaje. Plan: resources/applied-ai-engineering-roadmap.md.
-  La semana actual es la última entrada de resources/log-semanal.md.
+  La semana actual es la entrada más reciente de resources/log-semanal.md (la de arriba).
 - Sigue el "Cómo hacerlo" de la semana en curso y no adelantes semanas.
   El plan antiguo (resources/ai-engineer-roadmap-48weeks.md) es material de
   referencia técnica: úsalo cuando la semana diga "ver roadmap técnico".
