@@ -1,5 +1,5 @@
 [project]
-name = "ai-engineer-journey"
+name = "applied-ai-engineering"
 version = "0.1.0"
 description = "Applied AI Engineering: LLM apps, RAG, agents and ML in production"
 readme = "README.md"
