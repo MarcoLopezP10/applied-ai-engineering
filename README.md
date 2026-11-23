@@ -1,6 +1,6 @@
-# AI Engineer Journey
+# Applied AI Engineering
 
-**Extending my Data Science background into AI Engineering: building, deploying and operating LLM-powered products.**
+**Building, deploying and operating AI systems in production: LLM applications, RAG, agents and ML.**
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
@@ -10,9 +10,22 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?logo=googlegemini&logoColor=white)
 
-I'm **Marco López Prieto** (Madrid), with a background in Computer Engineering and Data Science. This repository follows a structured 48-week plan (October 2026 – September 2027) to add the engineering skills that production AI systems require: API development, LLM integration, RAG, agents, containerization and cloud deployment.
+I'm **Marco López Prieto** (Madrid): Computer Engineering graduate (CUNEF) and MSc student in Business Analytics & Data Science (IE). This repository follows a week-by-week plan (November 2026 – September 2027) to build the engineering skills behind production AI systems, targeting **AI Engineer**, **Forward Deployed Engineer**, **ML Engineer** and **Software Engineer** roles.
 
 The approach is hands-on: every week ends with working, tested code committed to this repository.
+
+---
+
+## Projects
+
+| # | Project | What it shows | Status |
+|:---:|---|---|:---:|
+| 01 | [**CLI AI Assistant**](projects/01-cli-ai-assistant) | LLM APIs, tool calling, streaming, tests | In progress |
+| 02 | **DocuChat** | RAG over PDFs with cited answers, evals, observability, AWS deployment, React + TypeScript frontend | Planned (Dec 2026 – Mar 2027) |
+| 03 | **Support Agent** | LangGraph agent over a mock CRM: memory, human approval, MCP server, webhooks and queues, guardrails, agent evals | Planned (Apr – Jun 2027) |
+| 04 | **ML in Production** | Model tracked with MLflow, served with FastAPI in Docker, with drift monitoring | Planned (Mar – Apr 2027) |
+
+Each project README covers the problem, architecture, decisions and trade-offs, metrics (quality, cost, latency), what failed and how to run it.
 
 ---
 
@@ -24,36 +37,36 @@ The approach is hands-on: every week ends with working, tested code committed to
 | 2 | REST API design with FastAPI | Done |
 | 3 | Advanced Git and testing with Pytest | Done |
 | 4 | LLM fundamentals: tokens, prompting and API usage | Done |
-| 5 | Prompt engineering | In progress |
-| 6–12 | Docker, PostgreSQL, embeddings and Project 1 | Planned |
+| 5 | Prompt engineering and structured outputs | In progress |
+| 6–7 | Tool calling and Project 01: CLI AI Assistant | Planned |
+| 9–11 | Docker, pgvector, embeddings and DocuChat v0 | Planned |
 
-Weekly exercises and code are described in the [practice log](practice/README.md).
+Weekly exercises and code are described in the [practice log](practice/README.md). Algorithm practice is tracked in [`practice/algoritmos`](practice/algoritmos/README.md).
 
 ---
 
 ## Roadmap
 
-| Phase | Period | Skills | Project |
+| Phase | Weeks | Period | Outcome |
 |---|---|---|---|
-| **1. Foundations** | Oct – Dec 2026 | Async Python, FastAPI, testing, LLMs, Docker, PostgreSQL, embeddings | **CLI AI Assistant**: command-line assistant built on an LLM API |
-| **2. Backend & RAG** | Jan – Mar 2027 | pgvector, document processing and chunking, semantic search, LangChain | **Docs Q&A Platform**: natural-language questions over PDF documents |
-| **3. Production & Agents** | Apr – Jun 2027 | Observability (Langfuse), evaluation, safety, agents with tools and memory (LangGraph) | **Production Support Bot**: support agent with memory and tool use |
-| **4. Deployment** | Jun – Sep 2027 | AWS, CI/CD with GitHub Actions, product architecture | **DocuChat Pro**: deployed AI SaaS application |
+| **1. Foundations** | 1–8 | Oct – Dec 2026 | Async Python, FastAPI, testing, LLMs, prompting, tool calling · **CLI AI Assistant** |
+| **2. Winter sprint** | 9–11 | Dec 2026 – Jan 2027 | Docker, pgvector, embeddings · **DocuChat v0** |
+| **3. RAG to production** | 12–23 | Jan – Apr 2027 | Evals, Langfuse, AWS, CI/CD, React + TypeScript · **DocuChat** with real users · **ML in Production** |
+| **4. Agents** | 24–36 | Apr – Jul 2027 | LangGraph, memory, MCP, integrations, guardrails, agent evals · **Support Agent** |
+| **5. Polish** | 37–48 | Jul – Sep 2027 | System design, interviews, project polish |
 
-**Goal:** four deployed and documented AI projects on a production-oriented stack (Python, FastAPI, LLMs, RAG, Docker, AWS).
+The full week-by-week plan, with what to do and how, is in [`resources/applied-ai-engineering-roadmap.md`](resources/applied-ai-engineering-roadmap.md) (Spanish). The original 48-week plan, [`resources/ai-engineer-roadmap-48weeks.md`](resources/ai-engineer-roadmap-48weeks.md), is kept as technical reference material.
 
 ---
 
 ## Repository structure
 
 ```
-ai-engineer-journey/
-├── practice/      Weekly exercises (see practice/README.md)
+applied-ai-engineering/
+├── practice/      Weekly exercises (see practice/README.md) and algorithm practice
 ├── projects/      Main projects and infrastructure (docker-compose)
-└── resources/     Detailed roadmap
+└── resources/     Week-by-week roadmap, weekly log and technical reference
 ```
-
-The full week-by-week plan is in [`resources/ai-engineer-roadmap-48weeks.md`](resources/ai-engineer-roadmap-48weeks.md) (Spanish).
 
 ---
 
