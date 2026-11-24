@@ -4,6 +4,8 @@
 > Este plan sustituye a [`ai-engineer-roadmap-48weeks.md`](ai-engineer-roadmap-48weeks.md). Ese archivo se queda como **material técnico de referencia**: cuando una semana dice "ver roadmap técnico, semana X", allí están los conceptos, el código de ejemplo y los recursos.
 >
 > La numeración continúa la del repo (la semana actual es la 5), así que las carpetas `practice/semanaN/` siguen cuadrando.
+>
+> 📘 **Cada semana tiene una guía detallada** en [`semanas/`](semanas/README.md): el reparto por días, el código base, los comandos, cómo comprobar cada paso y qué hacer si algo falla. Este archivo es el mapa; las guías son el paso a paso.
 
 ---
 
@@ -12,17 +14,19 @@
 1. [Por qué cambia el nombre](#por-qué-cambia-el-nombre)
 2. [Objetivo y perfil](#objetivo-y-perfil)
 3. [Reglas del plan](#reglas-del-plan)
-4. [Mapa del plan](#mapa-del-plan)
-5. [Proyectos](#proyectos)
-6. [Algoritmos: método](#algoritmos-método)
-7. [Bloque de carrera: método](#bloque-de-carrera-método)
-8. [Fase 1 · Cerrar fundamentos (S5–S8)](#fase-1--cerrar-fundamentos-s5s8)
-9. [Fase 2 · Sprint de Navidad (S9–S11)](#fase-2--sprint-de-navidad-s9s11)
-10. [Fase 3 · Term 2: DocuChat de demo a producto (S12–S23)](#fase-3--term-2-docuchat-de-demo-a-producto-s12s23)
-11. [Fase 4 · Term 3: agente de soporte (S24–S36)](#fase-4--term-3-agente-de-soporte-s24s36)
-12. [Fase 5 · Verano (S37–S48)](#fase-5--verano-s37s48)
-13. [Checkpoints](#checkpoints)
-14. [Plantilla del log semanal](#plantilla-del-log-semanal)
+4. [Semana tipo](#semana-tipo)
+5. [Mapa del plan](#mapa-del-plan)
+6. [Proyectos](#proyectos)
+7. [Algoritmos: método](#algoritmos-método)
+8. [Bloque de carrera: método](#bloque-de-carrera-método)
+9. [Fase 1 · Cerrar fundamentos (S5–S8)](#fase-1--cerrar-fundamentos-s5s8)
+10. [Fase 2 · Sprint de Navidad (S9–S11)](#fase-2--sprint-de-navidad-s9s11)
+11. [Fase 3 · Term 2: DocuChat de demo a producto (S12–S23)](#fase-3--term-2-docuchat-de-demo-a-producto-s12s23)
+12. [Fase 4 · Term 3: agente de soporte (S24–S36)](#fase-4--term-3-agente-de-soporte-s24s36)
+13. [Fase 5 · Verano (S37–S48)](#fase-5--verano-s37s48)
+14. [Checkpoints](#checkpoints)
+15. [Plantilla del log semanal](#plantilla-del-log-semanal)
+16. [Guías detalladas por semana](semanas/README.md)
 
 ---
 
@@ -71,6 +75,20 @@ El plan original era solo para **AI Engineer**. Ahora apunto a cuatro puestos qu
 3. **Uso IA para programar** (Claude Code, Cursor), pero escribo yo el núcleo y sé defender cada línea en una entrevista.
 4. **Cada domingo, 15 minutos:** relleno el [log semanal](log-semanal.md).
 5. **Lo privado no va en este repo:** empresas concretas, estado de procesos y salarios están en mi tracker privado.
+
+---
+
+## Semana tipo
+
+| Día | Tiempo | Bloque |
+|---|:---:|---|
+| Martes | 1 h | Técnico: primeros pasos del "Cómo hacerlo" |
+| Miércoles | 1 h | Algoritmos: los 2 problemas de la semana |
+| Jueves | 1 h | Técnico: continuar |
+| Sábado | 1,5 h | 30 min de técnico (cerrar el entregable) + 1 h de carrera |
+| Domingo | 15 min | Log, PR y leer la semana siguiente |
+
+Los días son orientativos: lo que cuenta es cumplir los tres bloques. En semana de exámenes: miércoles (algoritmos) y sábado (carrera), 1 h cada uno. En Navidad: unas 2 h diarias y el domingo de cierre. Cada guía detallada trae su propio reparto día a día.
 
 ---
 
@@ -147,6 +165,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 5 · 23–29 nov · Prompt engineering y arranque
 
+📘 **Guía detallada:** [semana-05.md](semanas/semana-05.md)
+
 🎯 **Objetivo:** cerrar la semana de prompt engineering con salida estructurada fiable y arrancar algoritmos y carrera.
 
 | Bloque | Tarea | Tiempo |
@@ -189,6 +209,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 6 · 30 nov – 6 dic · Tool calling + CLI Assistant (1/2)
 
+📘 **Guía detallada:** [semana-06.md](semanas/semana-06.md)
+
 🎯 **Objetivo:** que el LLM llame a funciones tuyas. Es la base del CLI y, más adelante, de los agentes.
 
 | Bloque | Tarea | Tiempo |
@@ -226,6 +248,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 7 · 7–13 dic · CLI Assistant (2/2): cerrar y publicar
 
+📘 **Guía detallada:** [semana-07.md](semanas/semana-07.md)
+
 🎯 **Objetivo:** primer proyecto del portfolio terminado y presentable. **Tiempo cerrado:** si llegan entregas del máster, se publica con lo que haya.
 
 | Bloque | Tarea | Tiempo |
@@ -254,11 +278,13 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 8 · 14–20 dic · Exámenes del term 1 (modo mínimo, 2 h)
 
+📘 **Guía detallada:** [semana-08.md](semanas/semana-08.md)
+
 🎯 **Objetivo:** no parar del todo y dejar preparada la Navidad.
 
 | Bloque | Tarea | Tiempo |
 |---|---|:---:|
-| Algoritmos | Repasar los 2 fallados + Best Time to Buy and Sell Stock | 1 h |
+| Algoritmos | Repasar los 2 fallados + Product of Array Except Self | 1 h |
 | Carrera | Correo a IE + fechas de las empresas prioritarias | 1 h |
 
 **🛠️ Cómo hacerlo**
@@ -287,6 +313,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 9 · 21–27 dic · Docker + pgvector + embeddings
 
+📘 **Guía detallada:** [semana-09.md](semanas/semana-09.md)
+
 🎯 **Objetivo:** el entorno de DocuChat listo, con API y base de datos en contenedores, y la búsqueda por similitud entendida.
 
 | Bloque | Tarea | Tiempo |
@@ -300,7 +328,7 @@ Una hora a la semana que no se mueve. Rotación habitual:
 *Técnico:*
 
 1. **Docker** (1,5 h; ver roadmap técnico, semana 6): imagen, contenedor, volumen, red, `Dockerfile`, `docker compose`.
-2. **Dockerizar la API de la semana 2** (2 h): `Dockerfile` con `uv` y build en dos etapas; `docker compose up` levanta la API y Postgres; endpoint `/health`.
+2. **Dockerizar la API de la semana 2** (2 h): `Dockerfile` sencillo; `docker compose up` levanta la API y Postgres; endpoints `/health` y `/db-check`.
 3. **pgvector** (1,5 h): en `projects/docker-compose.yml` cambia la imagen a `pgvector/pgvector:pg16`. Ejecuta `CREATE EXTENSION vector;` y crea una tabla con una columna `vector(3)`. Consulta los vecinos más cercanos con el operador de distancia coseno `<=>` ([docs de pgvector](https://github.com/pgvector/pgvector)).
 4. **Embeddings** (2 h; ver roadmap técnico, semana 11): genera embeddings de 20 frases con el modelo de embeddings de Gemini, guárdalos en pgvector y busca las 3 más parecidas a una pregunta. Fíjate en la dimensión del vector que devuelve el modelo.
 
@@ -318,6 +346,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 ---
 
 ## Semana 10 · 28 dic – 3 ene · DocuChat v0: ingesta y búsqueda
+
+📘 **Guía detallada:** [semana-10.md](semanas/semana-10.md)
 
 🎯 **Objetivo:** subir un PDF y recuperar los fragmentos relevantes para una pregunta.
 
@@ -360,6 +390,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 11 · 4–10 ene · DocuChat v0: respuestas con citas + primer eval
 
+📘 **Guía detallada:** [semana-11.md](semanas/semana-11.md)
+
 🎯 **Objetivo:** DocuChat responde citando las fuentes y tengo el primer número de calidad.
 
 | Bloque | Tarea | Tiempo |
@@ -399,6 +431,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 12 · 11–17 ene · Evals con LLM como juez
 
+📘 **Guía detallada:** [semana-12.md](semanas/semana-12.md)
+
 🎯 **Objetivo:** medir si las respuestas son correctas y fieles a las fuentes, no solo si se recupera la página.
 
 | Bloque | Tarea | Tiempo |
@@ -424,6 +458,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 13 · 18–24 ene · Observabilidad con Langfuse
 
+📘 **Guía detallada:** [semana-13.md](semanas/semana-13.md)
+
 🎯 **Objetivo:** ver qué pasa dentro de cada pregunta: qué se recupera, cuánto tarda y cuánto cuesta.
 
 | Bloque | Tarea | Tiempo |
@@ -448,11 +484,13 @@ Una hora a la semana que no se mueve. Rotación habitual:
 
 ## Semana 14 · 25–31 ene · Experimento: troceado y modelos
 
+📘 **Guía detallada:** [semana-14.md](semanas/semana-14.md)
+
 🎯 **Objetivo:** tomar decisiones con datos. Es lo que más preguntan en las entrevistas de AI Engineer.
 
 | Bloque | Tarea | Tiempo |
 |---|---|:---:|
-| Técnico | 2 troceados × 2 modelos con el golden set | 2,5 h |
+| Técnico | 3 configuraciones (2 troceados y 2 modelos) con el golden set | 2,5 h |
 | Algoritmos | Reverse Linked List, Merge Two Sorted Lists | 1 h |
 | Carrera | 2 candidaturas (ola 2) | 1 h |
 
@@ -469,6 +507,8 @@ Una hora a la semana que no se mueve. Rotación habitual:
 ---
 
 ## Semana 15 · 1–7 feb · Una mejora de calidad
+
+📘 **Guía detallada:** [semana-15.md](semanas/semana-15.md)
 
 🎯 **Objetivo:** mejorar la recuperación y demostrarlo con el eval.
 
@@ -494,6 +534,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 16 · 8–14 feb · Preparar producción
+
+📘 **Guía detallada:** [semana-16.md](semanas/semana-16.md)
 
 🎯 **Objetivo:** que DocuChat aguante usuarios reales: configuración, errores, autenticación y CI.
 
@@ -521,6 +563,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 17 · 15–21 feb · Despliegue en AWS
 
+📘 **Guía detallada:** [semana-17.md](semanas/semana-17.md)
+
 🎯 **Objetivo:** DocuChat accesible desde Internet, por poco dinero y sin sustos en la factura.
 
 | Bloque | Tarea | Tiempo |
@@ -533,7 +577,7 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 1. **Primero:** alerta de AWS Budgets a 10 $ al mes. Antes de crear nada.
 2. **Base de datos:** Supabase con pgvector (gratis) o Postgres en la misma máquina.
-3. **Imagen:** súbela a ECR desde GitHub Actions.
+3. **Imagen:** súbela a ECR a mano desde tu Mac (la semana 18 lo automatiza).
 4. **Servidor:** una EC2 pequeña con Docker Compose y HTTPS con Caddy. Si el máster enseña ECS Fargate, úsalo en su lugar.
 5. Comprueba `/health` desde fuera y apunta en el README la arquitectura y el coste mensual estimado.
 
@@ -545,6 +589,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 18 · 22–28 feb · CI/CD completo + nivel de Cloud Practitioner
+
+📘 **Guía detallada:** [semana-18.md](semanas/semana-18.md)
 
 🎯 **Objetivo:** cada merge a `main` se despliega solo y se puede volver atrás.
 
@@ -569,6 +615,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 19 · 1–7 mar · Frontend React + TypeScript (1/2)
 
+📘 **Guía detallada:** [semana-19.md](semanas/semana-19.md)
+
 🎯 **Objetivo:** una interfaz propia. React y TypeScript los piden la mitad de las ofertas de FDE y de Software Engineer.
 
 | Bloque | Tarea | Tiempo |
@@ -591,6 +639,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 20 · 8–14 mar · Frontend (2/2) + publicar
 
+📘 **Guía detallada:** [semana-20.md](semanas/semana-20.md)
+
 🎯 **Objetivo:** DocuChat usable por cualquiera desde el navegador.
 
 | Bloque | Tarea | Tiempo |
@@ -601,7 +651,7 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 **🛠️ Cómo hacerlo**
 
-1. Pantalla de chat: respuesta + citas clicables que abren el documento en su página.
+1. Pantalla de chat: respuesta + citas clicables que muestran el fragmento con su documento y página.
 2. Estados de carga y de error, y respuesta "no lo encuentro" bien visible.
 3. Despliegue del frontend en **Vercel** (ya lo usaste con la app del gimnasio), apuntando a la API de AWS. Configura CORS.
 
@@ -612,6 +662,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 21 · 15–21 mar · Examen Cloud Practitioner + usuarios reales
+
+📘 **Guía detallada:** [semana-21.md](semanas/semana-21.md)
 
 🎯 **Objetivo:** primera certificación y primeros usuarios de verdad.
 
@@ -635,6 +687,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 22 · 22–28 mar · Feedback, métricas y write-up
 
+📘 **Guía detallada:** [semana-22.md](semanas/semana-22.md)
+
 🎯 **Objetivo:** convertir DocuChat en una historia con números. Si esta semana hay vacaciones de Semana Santa, sube a 8 h.
 
 | Bloque | Tarea | Tiempo |
@@ -656,6 +710,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 23 · 29 mar – 4 abr · Vídeo de DocuChat + proyecto de ML
+
+📘 **Guía detallada:** [semana-23.md](semanas/semana-23.md)
 
 🎯 **Objetivo:** cerrar el term 2 con dos proyectos presentables y el CV actualizado.
 
@@ -693,6 +749,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 24 · 5–11 abr · Agentes desde cero
 
+📘 **Guía detallada:** [semana-24.md](semanas/semana-24.md)
+
 🎯 **Objetivo:** entender qué es un agente sin magia de frameworks.
 
 | Bloque | Tarea | Tiempo |
@@ -717,6 +775,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 25 · 12–18 abr · LangGraph
 
+📘 **Guía detallada:** [semana-25.md](semanas/semana-25.md)
+
 🎯 **Objetivo:** pasar el agente a un grafo con estado, que es lo que usan las empresas.
 
 | Bloque | Tarea | Tiempo |
@@ -738,6 +798,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 26 · 19–25 abr · El caso: un CRM simulado
+
+📘 **Guía detallada:** [semana-26.md](semanas/semana-26.md)
 
 🎯 **Objetivo:** un problema realista de FDE: un agente que trabaja con los sistemas de un cliente.
 
@@ -761,6 +823,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 27 · 26 abr – 2 may · Memoria y aprobación humana
 
+📘 **Guía detallada:** [semana-27.md](semanas/semana-27.md)
+
 🎯 **Objetivo:** que el agente recuerde y que no haga nada delicado sin permiso.
 
 | Bloque | Tarea | Tiempo |
@@ -782,6 +846,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 28 · 3–9 may · MCP: DocuChat como herramienta
+
+📘 **Guía detallada:** [semana-28.md](semanas/semana-28.md)
 
 🎯 **Objetivo:** conectar tus dos proyectos con el estándar que piden cada vez más ofertas.
 
@@ -806,6 +872,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 29 · 10–16 may · Integraciones: webhook y cola
 
+📘 **Guía detallada:** [semana-29.md](semanas/semana-29.md)
+
 🎯 **Objetivo:** el día a día de un FDE, que es conectar sistemas que no se conocen.
 
 | Bloque | Tarea | Tiempo |
@@ -827,6 +895,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 30 · 17–23 may · Guardrails y seguridad
+
+📘 **Guía detallada:** [semana-30.md](semanas/semana-30.md)
 
 🎯 **Objetivo:** que el agente sea seguro con datos de clientes.
 
@@ -852,6 +922,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 31 · 24–30 may · Evals del agente
 
+📘 **Guía detallada:** [semana-31.md](semanas/semana-31.md)
+
 🎯 **Objetivo:** medir el agente como se mide en una empresa.
 
 | Bloque | Tarea | Tiempo |
@@ -874,6 +946,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 32 · 31 may – 6 jun · Desplegar el agente
 
+📘 **Guía detallada:** [semana-32.md](semanas/semana-32.md)
+
 🎯 **Objetivo:** el agente en una URL pública, como DocuChat.
 
 | Bloque | Tarea | Tiempo |
@@ -884,7 +958,7 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 **🛠️ Cómo hacerlo**
 
-1. Reutiliza la infraestructura y el CI/CD de DocuChat (misma EC2 u otro servicio).
+1. Reutiliza la infraestructura de DocuChat en la misma EC2, pasándola a t3.small.
 2. Interfaz mínima: una pantalla de chat en React, reutilizando el frontend de DocuChat.
 3. *System design:* diseña DocuChat para 10.000 usuarios: caché, colas, límites de uso, evals continuos y coste.
 
@@ -895,6 +969,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 ---
 
 ## Semana 33 · 7–13 jun · Write-up, vídeo y pitch
+
+📘 **Guía detallada:** [semana-33.md](semanas/semana-33.md)
 
 🎯 **Objetivo:** saber vender el proyecto, incluido el impacto en negocio.
 
@@ -918,6 +994,8 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 34 · 14–20 jun · Capstone como caso
 
+📘 **Guía detallada:** [semana-34.md](semanas/semana-34.md)
+
 | Bloque | Tarea | Tiempo |
 |---|---|:---:|
 | Técnico | Caso del capstone de una página + repaso de AWS Data Engineer | 2,5 h |
@@ -930,11 +1008,15 @@ Mide antes y después con el golden set. Si no mejora, también se documenta: sa
 
 ## Semana 35 · 21–27 jun · Examen AWS Data Engineer (si viene con la optativa)
 
+📘 **Guía detallada:** [semana-35.md](semanas/semana-35.md)
+
 Si no hay examen: pule los README del TFG y del PSO con la plantilla de proyectos.
 
 ---
 
 ## Semana 36 · 28 jun – 4 jul · Cierre del máster
+
+📘 **Guía detallada:** [semana-36.md](semanas/semana-36.md)
 
 1. Todos los README con la plantilla; perfil de GitHub con los 4–6 mejores repos fijados.
 2. Revisa el estado de cada proceso. **Si llega una oferta "segura" antes que la que prefieres:** pide 1–2 semanas de plazo y avisa a los procesos avanzados para que aceleren.
@@ -946,7 +1028,7 @@ Si no hay examen: pule los README del TFG y del PSO con la plantilla de proyecto
 # FASE 5 · Verano (S37–S48)
 ### 5 jul – 26 sep 2027
 
-**Punto de decisión: 15 de julio.**
+**Punto de decisión: 15 de julio.** Guía detallada: [verano](semanas/verano.md).
 
 ## Escenario A · oferta firmada
 

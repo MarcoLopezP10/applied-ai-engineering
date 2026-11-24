@@ -57,6 +57,8 @@ Weekly exercises and code are described in the [practice log](practice/README.md
 
 The full week-by-week plan, with what to do and how, is in [`resources/applied-ai-engineering-roadmap.md`](resources/applied-ai-engineering-roadmap.md) (Spanish). The original 48-week plan, [`resources/ai-engineer-roadmap-48weeks.md`](resources/ai-engineer-roadmap-48weeks.md), is kept as technical reference material.
 
+Detailed weekly guides (Spanish): [`resources/semanas/README.md`](resources/semanas/README.md).
+
 ---
 
 ## Repository structure
