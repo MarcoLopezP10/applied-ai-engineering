@@ -321,13 +321,13 @@ Para rol, chain of thought y JSON, usa como "prompt que funcionó" los de tu `co
 📦 **Entregable:** `practice/semana5/` (`code_analyzer.py`, `resultados.md`, `prompt_library.md`) + 2 problemas en `practice/algoritmos/`.
 
 ✅ **Checklist**
-- [ ] El analizador devuelve siempre un `CodeAnalysis` válido
-- [ ] He visto el reintento funcionar (paso 5) y he borrado el campo de prueba
-- [ ] Tabla de temperaturas con conclusiones
-- [ ] Prompt library con 5 técnicas
-- [ ] 2 problemas resueltos y anotados
-- [ ] Feedback pedido, Revolut revisado y 2 ofertas apuntadas
-- [ ] Log y PR de la semana
+- [x] El analizador devuelve siempre un `CodeAnalysis` válido
+- [x] He visto el reintento funcionar (paso 5) y he borrado el campo de prueba
+- [x] Tabla de temperaturas con conclusiones
+- [x] Prompt library con 5 técnicas
+- [x] 2 problemas resueltos y anotados
+- [x] Feedback pedido, Revolut revisado y 2 ofertas apuntadas
+- [x] Log y PR de la semana
 
 
 ---

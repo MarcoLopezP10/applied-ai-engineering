@@ -11,5 +11,5 @@ Cada solución va en esta carpeta como `nombre_del_problema.py`.
 
 | Fecha | Problema | Patrón | Tiempo | ¿Solo? | Qué fallé |
 |---|---|---|:---:|:---:|---|
-| | Contains Duplicate | Arrays & Hashing | | | |
-| | Valid Anagram | Arrays & Hashing | | | |
+| 24 nov | Contains Duplicate | Arrays & Hashing | — | Sí | Tipé `nums` como `set[int]` en vez de `list[int]`: un set no puede tener duplicados |
+| 24 nov | Valid Anagram | Arrays & Hashing | — | No | Lo saqué con ayuda. Falta probar la versión O(n) con un diccionario de conteo (`Counter`) |
