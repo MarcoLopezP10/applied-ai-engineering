@@ -37,11 +37,13 @@ Each project README covers the problem, architecture, decisions and trade-offs, 
 | 2 | REST API design with FastAPI | Done |
 | 3 | Advanced Git and testing with Pytest | Done |
 | 4 | LLM fundamentals: tokens, prompting and API usage | Done |
-| 5 | Prompt engineering and structured outputs | In progress |
-| 6–7 | Tool calling and Project 01: CLI AI Assistant | Planned |
+| 5 | Prompt engineering and structured outputs: [Code Analyzer](practice/semana5/code_analyzer.py) with Pydantic validation and retry | Done |
+| 6–7 | Tool calling and Project 01: CLI AI Assistant | Next |
 | 9–11 | Docker, pgvector, embeddings and DocuChat v0 | Planned |
 
-Weekly exercises and code are described in the [practice log](practice/README.md). Algorithm practice is tracked in [`practice/algoritmos`](practice/algoritmos/README.md).
+Weekly exercises and code are described in the [practice log](practice/README.md). Algorithm practice is tracked in [`practice/algoritmos`](practice/algoritmos/README.md): **2 problems solved** (NeetCode 150).
+
+_Last updated: end of week 5 (29 Nov 2026)._
 
 ---
 
