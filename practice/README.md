@@ -28,7 +28,9 @@ Weekly exercises from my [AI Engineer roadmap](../README.md). Each folder contai
 
 ## Week 5: Prompt engineering
 
-In progress.
+- [`code_analyzer.py`](semana5/code_analyzer.py): analyzes Python code and returns a validated `CodeAnalysis` object (Pydantic). Uses role prompting, chain of thought and JSON output; if validation fails, it retries once with the error message.
+- [`resultados.md`](semana5/resultados.md): comparison of temperature 0.2 vs 0.8 on three of my own files.
+- [`prompt_library.md`](semana5/prompt_library.md): five prompting techniques with examples that worked and failed.
 
 ---
 
